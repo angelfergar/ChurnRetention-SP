@@ -20,7 +20,8 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 │   ├── Model_Training.ipynb  # Entrenamiento de modelos estándar y tuning
 │   ├── Spark_Model_Training.ipynb  # Entrenamiento de modelos de la librería Spark MLlib
 │   ├── Simulation.ipynb # Simulación de la reducción de Churn  
-│── README.md```
+│── README.md
+```
 
 ---
 
@@ -65,7 +66,8 @@ El archivo Spark_Model_Training.ipynb desarrolla modelos utilizando Spark MLlib,
 ### 📥 **Descargar el Repositorio**
 ```bash
 git clone https://github.com/angelfergar/ChurnRetention-SP.git
-cd ChurnRetention-SP```
+cd ChurnRetention-SP
+```
 
 ---
 
