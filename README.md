@@ -6,7 +6,8 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 
 ## 📌 **Estructura del Proyecto**
 
-```/ChurnRetention-SP
+```
+/ChurnRetention-SP
 │── /data
 │   ├── raw_customerChurn.csv
 │   ├── cleaned_customerChurn.csv  # Listo para usarse en Power BI
@@ -45,18 +46,18 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
 ## 🎯 **3. Simulación de Reducción de Churn**
  
 El archivo ['Simulation.ipynb']
-(notebooks/Model_Training.ipynb) calcula el impacto de estrategias de retención:
-✅ Simulación de estrategias de retención como **descuentos y mejoras de soporte**
+(notebooks/Model_Training.ipynb) calcula el impacto de estrategias de retención:  
+✅ Simulación de estrategias de retención como **descuentos y mejoras de soporte**  
 ✅ **Cálculo del ahorro financiero y ROI**
 
 ---
 
 ## 🤖 **4. Modelado y Evaluación en Spark**
-El archivo Spark_Model_Training.ipynb desarrolla modelos utilizando Spark MLlib, una librería optimizada para procesamiento en Big Data.
-✅ Transformación de datos con **VectorAssembler** para trabajar con Spark.
-✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.
-✅ Comparación de métricas con el best_model.pkl
-✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.
+El archivo Spark_Model_Training.ipynb desarrolla modelos utilizando Spark MLlib, una librería optimizada para procesamiento en Big Data.  
+✅ Transformación de datos con **VectorAssembler** para trabajar con Spark.  
+✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.    
+✅ Comparación de métricas con el best_model.pkl  
+✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
 📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.??.
 
@@ -64,7 +65,8 @@ El archivo Spark_Model_Training.ipynb desarrolla modelos utilizando Spark MLlib,
 
 ## ⚙️ **5. Instalación y Uso**
 ### 📥 **Descargar el Repositorio**
-```bash
+```
+bash
 git clone https://github.com/angelfergar/ChurnRetention-SP.git
 cd ChurnRetention-SP
 ```
