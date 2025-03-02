@@ -48,8 +48,8 @@ El archivo ['Preprocessing.ipynb'](notebooks/Preprocessing.ipynb) incluye los pa
 
 ## 🤖 **3. Modelado y Evaluación**
 El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:  
-✅ **Balanceo de datos** con **SMOTE y RandomUnderSampler**
-✅ Modelos como **Regresión Logística, Decisión Tree, Random Forest, XGBoost y LightGBM** 
+✅ **Balanceo de datos** con **SMOTE y RandomUnderSampler**  
+✅ Modelos como **Regresión Logística, Decisión Tree, Random Forest, XGBoost y LightGBM**  
 ✅ Evaluación de los modelos con **SHAP Values, Matriz de confusión, Curva ROC y Curva Precision-Recall** 
 ✅ **Optimización de hiperparámetros** con **Grid Search, Hyperopt y Optuna**
 
@@ -61,7 +61,7 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
  
 El archivo ['Simulation.ipynb']
 (notebooks/Model_Training.ipynb) calcula el impacto de estrategias de retención:  
-✅ Simulación de estrategias de retención
+✅ Simulación de estrategias de retención  
 ✅ **Cálculo del ahorro financiero y ROI**
 
 ---
