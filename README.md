@@ -50,7 +50,7 @@ El archivo ['Preprocessing.ipynb'](notebooks/Preprocessing.ipynb) incluye los pa
 El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:  
 ✅ **Balanceo de datos** con **SMOTE y RandomUnderSampler**  
 ✅ Modelos como **Regresión Logística, Decisión Tree, Random Forest, XGBoost y LightGBM**  
-✅ Evaluación de los modelos con **SHAP Values, Matriz de confusión, Curva ROC y Curva Precision-Recall** 
+✅ Evaluación de los modelos con **SHAP Values, Matriz de confusión, Curva ROC y Curva Precision-Recall**  
 ✅ **Optimización de hiperparámetros** con **Grid Search, Hyperopt y Optuna**
 
 📌 **El mejor modelo se guarda en** `/models/best_model.pkl`
