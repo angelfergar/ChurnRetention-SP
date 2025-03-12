@@ -13,7 +13,7 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 │   ├── cleaned_customerChurn.csv  # Listo para usarse en Power BI
 │   ├── preprocessed_customerChurn.csv  # Listo para entrenar los modelos 
 │── /models
-│   ├── best_model.pkl  # Mejor modelo estándar
+│   ├── best_model.joblib  # Mejor modelo estándar
 │   ├── best_spark_model.?? # Mejor modelo de Spark MLlib
 │── /notebooks
 │   ├── Exploratory_Analysis.ipynb  # Limpieza de datos & visualización
@@ -51,9 +51,9 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
 ✅ **Balanceo de datos** con **SMOTE y RandomUnderSampler**  
 ✅ Modelos como **Regresión Logística, Decisión Tree, Random Forest, XGBoost y LightGBM**  
 ✅ Evaluación de los modelos con **SHAP Values, Matriz de confusión, Curva ROC y Curva Precision-Recall**  
-✅ **Optimización de hiperparámetros** con **Grid Search, Hyperopt y Optuna**
+✅ **Optimización de hiperparámetros** con **Grid Search**
 
-📌 **El mejor modelo se guarda en** `/models/best_model.pkl`
+📌 **El mejor modelo se guarda en** `/models/best_model.joblib`
 
 ---
 
@@ -70,7 +70,7 @@ El archivo ['Simulation.ipynb']
 El archivo ['Spark_Model_Training.ipynb'](notebooks/Spark_Model_Training.ipynb) desarrolla modelos utilizando Spark MLlib, una librería optimizada para procesamiento en Big Data.  
 ✅ Transformación de datos con **VectorAssembler** para trabajar con Spark.  
 ✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.    
-✅ Comparación de métricas con el best_model.pkl  
+✅ Comparación de métricas con el best_model.joblib 
 ✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
 📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.??.
