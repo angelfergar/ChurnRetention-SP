@@ -14,7 +14,7 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 │   ├── preprocessed_customerChurn.csv  # Listo para entrenar los modelos 
 │── /models
 │   ├── best_model.joblib  # Mejor modelo estándar
-│   ├── best_spark_model.?? # Mejor modelo de Spark MLlib
+│   ├── best_spark_model.zip # Mejor modelo de Spark MLlib
 │── /notebooks
 │   ├── Exploratory_Analysis.ipynb  # Limpieza de datos & visualización
 │   ├── Preprocessing.ipynb  # Preparación de los datos para entrenar los modelos
@@ -73,7 +73,7 @@ El archivo ['Spark_Model_Training.ipynb'](notebooks/Spark_Model_Training.ipynb) 
 ✅ Comparación de métricas con el best_model.joblib 
 ✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
-📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.??.
+📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.zip
 
 ---
 
