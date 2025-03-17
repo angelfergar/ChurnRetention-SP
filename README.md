@@ -70,7 +70,6 @@ El archivo ['Simulation.ipynb']
 El archivo ['Spark_Model_Training.ipynb'](notebooks/Spark_Model_Training.ipynb) desarrolla modelos utilizando Spark MLlib, una librería optimizada para procesamiento en Big Data.  
 ✅ Transformación de datos con **VectorAssembler** para trabajar con Spark.  
 ✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.    
-✅ Comparación de métricas con el best_model.joblib 
 ✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
 📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.zip
