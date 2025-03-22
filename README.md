@@ -91,7 +91,7 @@ cd ChurnRetention-SP
 * Según el modelo **XGBoost**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 387,000.00€.**
 * Según el modelo **GBT Classifier**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 433,800.00€.**
 
-📊 _RELLENAR CON Gráficos y visualizaciones detalladas en los notebooks y PowerBI._
+📊 Gráficos y visualizaciones detalladas en los notebooks.
 
 ---
 
