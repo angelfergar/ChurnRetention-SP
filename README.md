@@ -32,7 +32,7 @@ El archivo ['Exploratory_Analysis.ipynb'](notebooks/Exploratory_Analysis.ipynb) 
 ✅ Visualización de tendencias de Churn con **Matplotlib & Seaborn**  
 ✅ Análisis de correlaciones y factores clave   
 
-📌 El dataset que resulta tras el EDA se guarda en: /data/cleaned_customerChurn.csv. Este dataset se usa para crear los dashboards en PowerBI ('Enlace')
+📌 El dataset que resulta tras el EDA se guarda en: ['/data/cleaned_customerChurn.csv'](/data/cleaned_customerChurn.csv). Este dataset se usa para crear los dashboards en PowerBI ('Enlace')
 
 ---
 
@@ -42,7 +42,7 @@ El archivo ['Preprocessing.ipynb'](notebooks/Preprocessing.ipynb) incluye los pa
 ✅ **Normalización y estandarización** de variables  
 ✅ **Tratamiento de valores nulos y outliers**
 
-📌 El dataset preprocesado se guarda en: /data/preprocessed_customerChurn.csv, listo para su uso en modelos.  
+📌 El dataset preprocesado se guarda en: ['/data/preprocessed_customerChurn.csv'](/data/preprocessed_customerChurn.csv), listo para su uso en modelos.  
 
 ---
 
@@ -59,10 +59,9 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
 
 ## 🎯 **4. Simulación de Reducción de Churn**
  
-El archivo ['Simulation.ipynb']
-(notebooks/Model_Training.ipynb) calcula el impacto de estrategias de retención:  
-✅ Simulación de estrategias de retención  
-✅ **Cálculo del ahorro financiero y ROI**
+El archivo ['Simulacion.ipynb'](notebooks/Simulacion.ipynb) calcula el impacto de estrategias de retención:  
+✅ **Simulación de estrategias de retención**  
+✅ **Cálculo del ahorro financiero**
 
 ---
 
@@ -72,7 +71,7 @@ El archivo ['Spark_Model_Training.ipynb'](notebooks/Spark_Model_Training.ipynb) 
 ✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.    
 ✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
-📌 **El mejor modelo de Spark se guarda en** /models/best_spark_model.zip
+📌 **El mejor modelo de Spark se guarda en** ['/models/best_spark_model.zip'](/models/best_spark_model.zip)
 
 ---
 
@@ -87,7 +86,10 @@ cd ChurnRetention-SP
 ---
 
 ## 📈 **7. Resultados Clave**
-* RELLENAR CON Resultados
+* **El modelo XGboost con GridSearchCV tuvo el mejor rendimiento con un F1-Score de 0.79.**
+* **El modelo GBT Classifier de Spark tuvo el mejor rendimiento con un F1-Score de 0.80.**
+* Según el modelo **XGBoost**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 387,000.00€.**
+* Según el modelo **GBT Classifier**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 433,800.00€.**
 
 📊 _RELLENAR CON Gráficos y visualizaciones detalladas en los notebooks y PowerBI._
 
