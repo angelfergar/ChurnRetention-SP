@@ -1,6 +1,6 @@
 # 📊 Proyecto de Predicción de Churn
 
-Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la probabilidad de que un cliente de uuna empresa de telecomunicaciones abandone el servicio (**Churn**). Se comparan diferentes modelos y se simulan estrategias de retención para evaluar su impacto en el negocio.
+Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la probabilidad de que un cliente de una empresa de telecomunicaciones abandone el servicio (**Churn**). Se comparan diferentes modelos y se simulan estrategias de retención para evaluar su impacto en el negocio.
 
 ---
 
