@@ -20,7 +20,7 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 │   ├── Preprocessing.ipynb  # Preparación de los datos para entrenar los modelos
 │   ├── Model_Training.ipynb  # Entrenamiento de modelos estándar y tuning
 │   ├── Spark_Model_Training.ipynb  # Entrenamiento de modelos de la librería Spark MLlib
-│   ├── Simulation.ipynb # Simulación de la reducción de Churn  
+│   ├── Simulacion.ipynb # Simulación de la reducción de Churn  
 │── README.md
 ```
 
@@ -86,6 +86,11 @@ cd ChurnRetention-SP
 ---
 
 ## 📈 **7. Resultados Clave**
+* **Los principales factores que provocan la baja de los clientes** son:
+  * **La calidad de los servicios** (**Fibra óptica, servicio técnico**, seguridad online y protección de dispositivos)
+  * **Nuevos clientes con contratos mes a mes**
+  * **El método de pago Electronic Check**
+    
 * **El modelo XGboost con GridSearchCV tuvo el mejor rendimiento con un F1-Score de 0.79.**
 * **El modelo GBT Classifier de Spark tuvo el mejor rendimiento con un F1-Score de 0.80.**
 * Según el modelo **XGBoost**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 387,000.00€.**
