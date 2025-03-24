@@ -8,6 +8,8 @@ Este proyecto utiliza Machine Learning (estándar y Spark) para predecir la prob
 
 ```
 /ChurnRetention-SP
+│── /dashboards
+│   ├── CustomerChurnAnalysis.pbix
 │── /data
 │   ├── raw_customerChurn.csv
 │   ├── cleaned_customerChurn.csv  # Listo para usarse en Power BI
@@ -32,7 +34,7 @@ El archivo ['Exploratory_Analysis.ipynb'](notebooks/Exploratory_Analysis.ipynb) 
 ✅ Visualización de tendencias de Churn con **Matplotlib & Seaborn**  
 ✅ Análisis de correlaciones y factores clave   
 
-📌 El dataset que resulta tras el EDA se guarda en: ['/data/cleaned_customerChurn.csv'](/data/cleaned_customerChurn.csv). Este dataset se usa para crear los dashboards en PowerBI ('Enlace')
+📌 El dataset que resulta tras el EDA se guarda en: ['/data/cleaned_customerChurn.csv'](/data/cleaned_customerChurn.csv). Este dataset se usa para crear el dashboardd de PowerBI ['dashboards/CustomerChurnAnalysis.pbix'](dashboards/CustomerChurnAnalysis.pbix)
 
 ---
 
@@ -53,7 +55,7 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
 ✅ Evaluación de los modelos con **SHAP Values, Matriz de confusión, Curva ROC y Curva Precision-Recall**  
 ✅ **Optimización de hiperparámetros** con **Grid Search**
 
-📌 **El mejor modelo se guarda en** `/models/best_model.joblib`
+📌 **El mejor modelo se guarda en:** ['/models/best_model.joblib'](/models/best_model.joblib)
 
 ---
 
