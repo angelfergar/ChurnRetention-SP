@@ -84,21 +84,21 @@ El archivo ['Model_Training.ipynb'](notebooks/Model_Training.ipynb) desarrolla:
 
 ---
 
-## 🎯 **5. Simulación de Reducción de Churn**
- 
-El archivo ['Simulacion.ipynb'](notebooks/Simulacion.ipynb) calcula el impacto de estrategias de retención:  
-✅ **Simulación de estrategias de retención**  
-✅ **Cálculo del ahorro financiero**
-
----
-
-## 🤖 **6. Modelado y Evaluación en Spark**
+## 🤖 **5. Modelado y Evaluación en Spark**
 El archivo ['Spark_Model_Training.ipynb'](notebooks/Spark_Model_Training.ipynb) desarrolla modelos utilizando Spark MLlib, una librería optimizada para procesamiento en Big Data.  
 ✅ Transformación de datos con **VectorAssembler** para trabajar con Spark.  
 ✅ Entrenamiento de modelos como **Decision Tree, Random Forest y Gradient-Boosted Trees (GBTClassifier)**.    
 ✅ **Optimización con CrossValidator y ParamGridBuilder** para mejorar los hiperparámetros.  
 
 📌 **El mejor modelo de Spark se guarda en** ['/models/best_spark_model.zip'](/models/best_spark_model.zip)
+
+---
+
+## 🎯 **6. Simulación de Reducción de Churn**
+ 
+El archivo ['Simulacion.ipynb'](notebooks/Simulacion.ipynb) calcula el impacto de estrategias de retención usando los modelos entrenados:  
+✅ **Simulación de estrategias de retención**  
+✅ **Cálculo del ahorro financiero**
 
 ---
 
