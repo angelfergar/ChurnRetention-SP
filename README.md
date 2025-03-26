@@ -93,9 +93,9 @@ cd ChurnRetention-SP
   * **Nuevos clientes con contratos mes a mes**
   * **El método de pago Electronic Check**
     
-* **El modelo XGboost con GridSearchCV tuvo el mejor rendimiento con un F1-Score de 0.79.**
+* **El modelo XGboost con GridSearchCV tuvo el mejor rendimiento con un F1-Score de 0.80.**
 * **El modelo GBT Classifier de Spark tuvo el mejor rendimiento con un F1-Score de 0.80.**
-* Según el modelo **XGBoost**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 387,000.00€.**
+* Según el modelo **XGBoost**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 365,400.00€.**
 * Según el modelo **GBT Classifier**, con una estrategia que permita una **mejora de retención de clientes del 35%, habría un ahorro de 433,800.00€.**
 
 📊 _Gráficos y visualizaciones detalladas en los notebooks._
